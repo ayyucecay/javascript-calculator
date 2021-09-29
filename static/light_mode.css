@@ -67,12 +67,13 @@
 
 .output .pre-output{
   color:#269F94;
-  font-size: 10px;
+  font-size: 16px;
   padding: 0px !important;
   width: 290px;
   height: 50px;
   text-align: right;
   margin-top: 170px;
+  font-weight: 600;
 }
 
 .output .last-output{
