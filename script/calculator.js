@@ -110,3 +110,9 @@ equal.onclick = function() {
   result.innerHTML = dom_result;
   equation = "";
 }
+
+clear.onclick = function(){
+  operations.innerHTML = equation;
+  result.innerHTML = "0";
+  equation = "";
+}
