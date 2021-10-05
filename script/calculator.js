@@ -80,11 +80,6 @@ sum.onclick = function() {
   operations.innerHTML = equation;
 }
 
-square_root.onclick = function() {
-  equation += "√";
-  operations.innerHTML = equation;
-}
-
 percent.onclick = function() {
   equation += "%";
   operations.innerHTML = equation;
@@ -114,8 +109,4 @@ equal.onclick = function() {
   dom_result = eval(equation);
   result.innerHTML = dom_result;
   equation = "";
-}
-clear.onclick = function() {
-  operations.innerHTML = "";
-  result.innerHTML = "0";
 }
