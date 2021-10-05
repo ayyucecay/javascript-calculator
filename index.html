@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>Calculator</title>
+  <link rel="stylesheet" href="../static/light_mode.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+  <meta charset="utf-8">
+</head>
+
+<body>
+
+  <div class="calculator_template">
+
+    <div class="output">
+
+      <div class="pre-output" id="operations"></div>
+
+      <div class="last-output" id="result">0</div>
+
+    </div>
+
+    <div class="row">
+      <div class="cell"><button class="operation" id="clear" style="width:142px">C</button></div>
+      <div class="cell"><button class="operation" id="percent">%</button></div>
+      <div class="cell"><button class="operation" id="sum">+</button></div>
+    </div>
+
+    <div class="row">
+      <div class="cell"><button class="number" id="one">1</button></div>
+      <div class="cell"><button class="number" id="two">2</button></div>
+      <div class="cell"><button class="number" id="three">3</button></div>
+      <div class="cell"><button class="operation" id="subtraction">-</button></div>
+    </div>
+
+    <div class="row">
+      <div class="cell"><button class="number" id="four">4</button></div>
+      <div class="cell"><button class="number" id="five">5</button></div>
+      <div class="cell"><button class="number" id="six">6</button></div>
+      <div class="cell"><button class="operation" id="multi">X</button></div>
+    </div>
+
+    <div class="row">
+      <div class="cell"><button class="number" id="seven">7</button></div>
+      <div class="cell"><button class="number" id="eight">8</button></div>
+      <div class="cell"><button class="number" id="nine">9</button></div>
+      <div class="cell"><button class="operation" id="divide">/</button></div>
+    </div>
+
+    <div class="row">
+      <div class="cell"><button class="number" id="zero">0</button></div>
+      <div class="cell"><button class="operation" id="dot">.</button></div>
+      <div class="cell"><button class="operation" style=" color:white ; width:142px" id="equal">=</button></div>
+    </div>
+  </div>
+
+    <script src="../script/calculator.js"></script>
+
+</body>
